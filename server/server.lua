@@ -240,19 +240,18 @@ CreateThread( function()
     if Config.CheckForUpdates then
         CreateThread( function()
           local version = GetResourceMetadata(GetCurrentResourceName(), 'version')
-          print(version)
           SetConvarServerInfo("snag_discord_logging", "V"..version)
           Citizen.Wait(10000)
           PerformHttpRequest('https://raw.githubusercontent.com/CyCoSnag/snag_discord_logging/master/version.json', function(code, res, headers)
               if code == 200 then
                   local response = json.decode(res)
-                  print(response.version)
                   if response.version ~= version then
                     print(([[^1-------------------------------------------------------
-                    snag_discord_logging has an update!
-                    Update: %s is available now!
-                    Changlog: %s
-                    -------------------------------------------------------^0]]):format(response.version, response.changelog))
+snag_discord_logging has an update available! Version: %s
+Visit https://github.com/CyCoSnag/snag_discord_logging or
+or https://snag.tebex.io/package/5259553 for the latest update.
+Changlog: %s
+-------------------------------------------------------^0]]):format(response.version, response.changelog))
                   end
               else
                   print('snag_discord_logging unable to check version')
