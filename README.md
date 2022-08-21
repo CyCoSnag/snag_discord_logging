@@ -1,4 +1,4 @@
-# snag_discord_logging
+# Easy Discord Logs [FiveM] [Standalone] [ESX] [Free]
 
 A FiveM resource that allows server owners to easily set up and use discord logs for whatever you need. ESX support is included. I'll be adding more framework support soon.
 
@@ -14,7 +14,7 @@ https://imgur.com/4rDxEcr
 
 https://imgur.com/4HkKn2W
 
-Logging is set up for player connections, player disconnects (including the reason for the disconnect), chat, logging start/stop timestamps, server online/offline logs, and script start/stop logs with timestamps.
+Logging is set up for player connections, player disconnects (including the reason for the disconnect), chat, logging start/stop timestamps, server online/offline logs, and script starts/stop logs with timestamps.
 
 ESX log support includes ESX load-in as characters with character info, player drop info, player re-logs, simple or detailed death logs, and job punch-in/punch-out logs.
 
@@ -38,9 +38,9 @@ or github: https://github.com/CyCoSnag/
 
 Unzip the resource.
 
-Put the resource into your servers resources folder.
+Put the resource into your server's resources folder.
 
-Add the resource name to your server startup config.
+Add the resource name to your server startup-config.
 
 Modify the client/config.lua and server/config.lua to your liking. Start server. Enjoy!
 
