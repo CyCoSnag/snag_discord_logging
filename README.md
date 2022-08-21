@@ -32,9 +32,9 @@ In client files: TriggerServerEvent('snag_discord_logging:ToDiscord', "Dev Log",
 
 In server files: TriggerEvent('snag_discord_logging:ToDiscord', "Dev Log", "Your message to log will go here.", "blue")
 
-Installation: Download the latest release from my tebex store: https://snag.tebex.io/ 
+Installation: Download the latest release from my tebex store: https://snag.tebex.io/package/5259553
 
-or github: https://github.com/CyCoSnag/
+or github: https://github.com/CyCoSnag/snag_discord_logging
 
 Unzip the resource.
 
