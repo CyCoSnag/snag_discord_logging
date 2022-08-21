@@ -16,7 +16,7 @@ https://imgur.com/4HkKn2W
 
 Logging is set up for player connections, player disconnects (including the reason for the disconnect), chat, logging start/stop timestamps, server online/offline logs, and script starts/stop logs with timestamps.
 
-ESX log support includes ESX load-in as characters with character info, player drop info, player re-logs, simple or detailed death logs, and job punch-in/punch-out logs.
+ESX log support (Legacy or higher) includes ESX load-in as characters with character info, player drop info, player re-logs, simple or detailed death logs, and job punch-in/punch-out logs.
 
 The event calls are in strings like so:
 
